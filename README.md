@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Real Estate Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern real estate mobile application built with **React Native**, **Expo**, and **TypeScript**.  
+This project provides a clean and scalable mobile experience for browsing property listings, exploring featured properties, and managing user authentication with **Appwrite**.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This application was developed as a mobile-first real estate platform with a focus on performance, clean UI, and maintainable architecture. It uses **Appwrite** for backend services such as authentication and database management, while **NativeWind** and **Tailwind CSS utilities** are used for styling.
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- **React Native**
+- **Expo**
+- **TypeScript**
+- **Appwrite** for authentication and database
+- **NativeWind**
+- **Tailwind CSS**
 
-   ```bash
-   npx expo start
-   ```
+## Features
 
-In the output, you'll find options to open the app in a
+- User authentication
+- Property listing display
+- Featured properties section
+- Search and filtering functionality
+- Modern mobile UI
+- Scalable project structure
+- Backend integration with Appwrite
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Backend
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This project uses **Appwrite** for:
 
-## Get a fresh project
+- User authentication
+- Database collections
+- Managing real estate data such as properties, agents, reviews, and galleries
 
-When you're ready, run:
+## Styling
+
+The user interface is styled using:
+
+- **NativeWind**
+- **Tailwind CSS utility classes**
+
+This approach helps keep the UI consistent, responsive, and easy to maintain.
+
+## Project Setup
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm or yarn
+- Expo CLI
+- Appwrite project configured with the required database and collections
+
+### Installation
+
+Clone the repository:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
